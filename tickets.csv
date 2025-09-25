@@ -1,0 +1,9 @@
+id;titulo;descripcion;categoria;estado;prioridad;tecnicoId;fechaCreacion;fechaInicio;fechaCierre
+1;Servidor principal sin conexión;El servidor principal de la empresa ha perdido completamente la conexión de red. Ningún empleado puede acceder a los sistemas internos. Es urgente resolver este problema.;Redes;EN_CURSO;ALTA;3;2025-09-25 12:04:12;2025-09-25 12:04:12;
+2;Impresora oficina 2 no funciona;La impresora multifuncional de la oficina 2 no responde. Los empleados no pueden imprmir documentos importantes.;Hardware;EN_CURSO;MEDIA;4;2025-09-25 12:04:12;2025-09-25 12:04:12;
+3;Problema con Microsoft Office;Excel se cierra inesperadamente al abrir archivos grandes. Afecta a varios usuarios del departamento de contabilidad.;Software;EN_CURSO;MEDIA;2;2025-09-25 12:04:12;2025-09-25 12:04:12;
+4;Usuario bloqueado en sistema;El usuario jperez no puede acceder al sistema. Su contraseña parece haber expirado pero el sistema no le permite cambiarla.;Seguridad;ABIERTO;BAJA;;2025-09-25 12:04:12;;
+5;Virus detectado en equipo;El antivirus ha detectado múltiples amenazas críticas en el equipo del director. Necesitamos limpieza completa urgente.;Seguridad;ABIERTO;ALTA;;2025-09-25 12:04:12;;
+6;Solicitud nuevo software;El departamento de diseño requiere licencias adicionales de Adobe Creative Suite para nuevos empleados.;General;ABIERTO;BAJA;;2025-09-25 12:04:12;;
+7;ola;jhgfd;General;EN_CURSO;BAJA;4;2025-09-25 12:04:39;2025-09-25 12:05:05;
+8;j;k;k;ABIERTO;BAJA;;2025-09-25 12:08:01;;
