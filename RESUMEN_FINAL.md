@@ -50,7 +50,6 @@ Tamaño JAR: 32KB
 ```
 mesadeayudajuname/
 ├── 📄 README.md (Documentación completa)
-├── 🔨 build.sh (Script de construcción)
 ├── 📦 build.xml (Configuración Ant)
 ├── 📁 src/mesadeayudajuname/
 │   ├── 🏠 Mesadeayudajuname.java (Clase principal)
@@ -68,8 +67,6 @@ mesadeayudajuname/
 │   │   └── Validador.java
 │   └── 📁 app/ (Interfaz usuario)
 │       └── MesaDeAyudaApp.java
-├── 📁 dist/
-│   └── 📦 mesadeayudajuname.jar (Ejecutable)
 ├── 📁 docs/ (Javadoc generado)
 ├── 📊 tickets.csv (Datos persistentes)
 └── 👥 tecnicos.csv (Data persistentes)
