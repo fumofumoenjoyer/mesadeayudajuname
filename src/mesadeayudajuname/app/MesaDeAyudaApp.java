@@ -37,7 +37,7 @@ public class MesaDeAyudaApp {
         
         boolean continuar = true;
         while (continuar) {
-            mostrarMenu();
+            mostrarMenuPrincipal();
             int opcion = leerOpcion();
             
             try {
@@ -89,8 +89,8 @@ public class MesaDeAyudaApp {
      */
     private void mostrarBienvenida() {
         System.out.println("╔══════════════════════════════════════════════════════════════╗");
-        System.out.println("║                    SISTEMA MESA DE AYUDA                    ║");
-        System.out.println("║                  Gestión de Tickets de Soporte              ║");
+        System.out.println("║                    SISTEMA MESA DE AYUDA                     ║");
+        System.out.println("║                  Gestión de Tickets de Soporte               ║");
         System.out.println("╚══════════════════════════════════════════════════════════════╝");
         System.out.println();
     }
@@ -100,18 +100,17 @@ public class MesaDeAyudaApp {
      */
     private static void mostrarMenuPrincipal() {
         System.out.println("╔═══════════════════════════════════════╗");
-        System.out.println("║            MESA DE AYUDA             ║");
+        System.out.println("║            MESA DE AYUDA              ║");
         System.out.println("║                                       ║");
-        System.out.println("║ 1. Crear nuevo ticket                ║");
-        System.out.println("║ 2. Ver todos los tickets             ║");
-        System.out.println("║ 3. Asignar ticket a técnico          ║");
-        System.out.println("║ 4. Iniciar trabajo en ticket         ║");
-        System.out.println("║ 5. Cerrar ticket                     ║");
-        System.out.println("║ 6. Gestionar técnicos                ║");
-        System.out.println("║ 7. Ver métricas                      ║");
-        System.out.println("║ 8. Crear tickets automáticos         ║");
-        System.out.println("║ 9. Ayuda                             ║");
-        System.out.println("║ 0. Salir                             ║");
+        System.out.println("║ 1. Crear nuevo ticket                 ║");
+        System.out.println("║ 2. Ver todos los tickets              ║");
+        System.out.println("║ 3. Asignar ticket a técnico           ║");
+        System.out.println("║ 4. Iniciar trabajo en ticket          ║");
+        System.out.println("║ 5. Cerrar ticket                      ║");
+        System.out.println("║ 6. Gestionar técnicos                 ║");
+        System.out.println("║ 7. Ver métricas                       ║");
+        System.out.println("║ 8. Ayuda                              ║ ");
+        System.out.println("║ 0. Salir                              ║");
         System.out.println("╚═══════════════════════════════════════╝");
         System.out.print("Seleccione una opción: ");
     }
@@ -538,27 +537,27 @@ public class MesaDeAyudaApp {
      * Muestra información de ayuda.
      */
     private void mostrarAyuda() {
-        System.out.println("\n┌──────────────── AYUDA ────────────────┐");
-        System.out.println("│                                       │");
-        System.out.println("│ FLUJO DE TRABAJO RECOMENDADO:         │");
-        System.out.println("│                                       │");
-        System.out.println("│ 1. Agregar técnicos al sistema       │");
-        System.out.println("│ 2. Crear tickets (manual o auto)     │");
-        System.out.println("│ 3. Asignar tickets a técnicos        │");
-        System.out.println("│ 4. Iniciar trabajo en tickets        │");
-        System.out.println("│ 5. Cerrar tickets resueltos          │");
-        System.out.println("│                                       │");
-        System.out.println("│ CONSEJOS:                             │");
-        System.out.println("│                                       │");
-        System.out.println("│ • Use clasificación automática       │");
-        System.out.println("│ • Revise métricas regularmente       │");
-        System.out.println("│ • Mantenga skills de técnicos        │");
-        System.out.println("│   actualizadas                       │");
-        System.out.println("│                                       │");
-        System.out.println("│ Los datos se guardan                 │");
-        System.out.println("│ automáticamente en CSV               │");
-        System.out.println("│                                       │");
-        System.out.println("└───────────────────────────────────────┘");
+        System.out.println("\n┌──────────────── AYUDA ─────────────────┐");
+        System.out.println("│                                         │");
+        System.out.println("│ FLUJO DE TRABAJO RECOMENDADO:           │");
+        System.out.println("│                                         │");
+        System.out.println("│ 1. Agregar técnicos al sistema          │");
+        System.out.println("│ 2. Crear tickets (manual o auto)        │");
+        System.out.println("│ 3. Asignar tickets a técnicos           │");
+        System.out.println("│ 4. Iniciar trabajo en tickets           │");
+        System.out.println("│ 5. Cerrar tickets resueltos             │");
+        System.out.println("│                                         │");
+        System.out.println("│ CONSEJOS:                               │");
+        System.out.println("│                                         │");
+        System.out.println("│ • Use clasificación automática          │");
+        System.out.println("│ • Revise métricas regularmente          │");
+        System.out.println("│ • Mantenga skills de técnicos           │");
+        System.out.println("│   actualizadas                          │");
+        System.out.println("│                                         │");
+        System.out.println("│ Los datos se guardan                    │");
+        System.out.println("│ automáticamente en CSV                  │");
+        System.out.println("│                                         │");
+        System.out.println("└─────────────────────────────────────────┘");
     }
     
     /**
@@ -567,9 +566,9 @@ public class MesaDeAyudaApp {
     private void despedida() {
         tableroService.guardarDatos();
         System.out.println("\n╔══════════════════════════════════════════════════════════════╗");
-        System.out.println("║                     ¡HASTA LUEGO!                           ║");
-        System.out.println("║              Datos guardados exitosamente                   ║");
-        System.out.println("║            Gracias por usar Mesa de Ayuda                   ║");
+        System.out.println("║                     ¡HASTA LUEGO!                            ║");
+        System.out.println("║              Datos guardados exitosamente                    ║");
+        System.out.println("║            Gracias por usar Mesa de Ayuda                    ║");
         System.out.println("╚══════════════════════════════════════════════════════════════╝");
     }
     
