@@ -537,7 +537,7 @@ public class MesaDeAyudaApp {
      * Muestra información de ayuda.
      */
     private void mostrarAyuda() {
-        System.out.println("\n┌──────────────── AYUDA ─────────────────┐");
+        System.out.println("\n┌──────────────── AYUDA ──────────────────┐");
         System.out.println("│                                         │");
         System.out.println("│ FLUJO DE TRABAJO RECOMENDADO:           │");
         System.out.println("│                                         │");
